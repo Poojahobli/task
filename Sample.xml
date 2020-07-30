@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+      
+          
+     	<test
+		name="flipkart pages"
+		preserve-order="true" thread-count="1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="testcases.Flipkart">
+			</class>
+			
+		</classes>
+	</test>
+
+
+</suite>
